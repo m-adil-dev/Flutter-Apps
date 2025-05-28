@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "171982874288",
+    "project_id": "skyways-defb3",
+    "storage_bucket": "skyways-defb3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171982874288:android:b63e2ac61db2661bc8fd75",
+        "android_client_info": {
+          "package_name": "com.skyways.skyways"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGChrEMLpM5luDfverNh5BRhUOwfQAB3g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
