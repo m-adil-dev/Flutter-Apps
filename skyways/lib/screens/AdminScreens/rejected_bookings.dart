@@ -91,14 +91,10 @@ class RejectedBookings extends StatelessWidget {
                         const SizedBox(height: 12),
                         Row(
                           children: [
-                            ClipRRect(
-                              borderRadius: BorderRadius.circular(200),
-                              child: Image.network(
-                                LogoPath,
-                                height: 30,
-                                width: 30,
-                                fit: BoxFit.cover,
-                              ),
+                            Image.asset(
+                              LogoPath,
+                              height: 30,
+                              width: 30,
                             ),
                             const SizedBox(width: 8),
                             const Text(

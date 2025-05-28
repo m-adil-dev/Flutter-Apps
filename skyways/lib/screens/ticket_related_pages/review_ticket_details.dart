@@ -144,7 +144,7 @@ Row(
     ),
     const SizedBox(width: 8),
     
-    // 👇 Wrap scrollable part with Flexible
+
     Flexible(
       child: SingleChildScrollView(
         scrollDirection: Axis.horizontal,
@@ -240,8 +240,6 @@ onPressed: () {
 
             style: ElevatedButton.styleFrom(
               backgroundColor: themecolor,
-              maximumSize: const Size(105, 35),
-              minimumSize: const Size(105, 35),
               shape: const RoundedRectangleBorder(
                 borderRadius: BorderRadius.all(Radius.circular(5)),
               ),
